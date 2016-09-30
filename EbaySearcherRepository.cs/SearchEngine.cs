@@ -1,30 +1,16 @@
-﻿using EbaySearcherModels.cs;
-using EbaySearcherRepository.cs.Helpers;
+﻿using EbaySearcher.FindingServiceReference;
+using EbaySearcher.Models;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using eBay.Service.Call;
-using eBay.Service.Core.Sdk;
-using eBay.Service.Core.Soap;
-using EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference;
 using System.ServiceModel;
 using System.ServiceModel.Channels;
 
-namespace EbaySearcherRepository.cs
+namespace EbaySearcher.Repository
 {
-    public class SearchEngine
+    public class SearchEngine : ISearchEngine
     {
-        public ICollection<Listing> SearchByKeyword(string keyword)
+        public ICollection<Listing> SearchByKeyword(string keyword, int maxResults)
         {
-            //var client = new FindingServicePortTypeClient();
-            //var context = RequestBuilder.CreateNewApiCall();
-            //var call = new findItemsByKeywordsRequest1;
-
-            //return new List<Listing>();
-
-
             using (FindingServicePortTypeClient client = new FindingServicePortTypeClient())
 
             {
@@ -37,36 +23,48 @@ namespace EbaySearcherRepository.cs
 
                     OperationContext.Current.OutgoingMessageHeaders.Add(header);
 
+                    HttpRequestMessageProperty httpRequestProperty = new HttpRequestMessageProperty();
 
+                    httpRequestProperty.Headers.Add("X-EBAY-SOA-SECURITY-APPNAME", "CameronB-EbayFeeT-PRD-e8a129233-5ff958d9");
 
-                    HttpRequestMessageProperty httpRequestProperty = RequestBuilder.CreateNewApiCall();
+                    httpRequestProperty.Headers.Add("X-EBAY-SOA-OPERATION-NAME", "findItemsByKeywords");
 
-
+                    httpRequestProperty.Headers.Add("X-EBAY-SOA-GLOBAL-ID", "EBAY-US");
 
                     OperationContext.Current.OutgoingMessageProperties[HttpRequestMessageProperty.Name] = httpRequestProperty;
 
-
-
                     FindItemsByKeywordsRequest request = new FindItemsByKeywordsRequest();
-
                     request.keywords = keyword;
 
-                    FindItemsByKeywordsResponse response = client.findItemsByKeywords(request);
-
+                    PaginationInput paginationInput = new PaginationInput();
                     var listings = new List<Listing>();
+                    var maxEntriesPerPage = 100;
+                    var maxIterations = maxResults / maxEntriesPerPage;
+                    paginationInput.entriesPerPage = maxEntriesPerPage;
 
-                    if (response?.searchResult?.item == null || response.ack.ToString() != "Success")
-                        return listings;
+                    for (var i = 0; i < maxIterations; i++)
+                    {                     
+                        paginationInput.pageNumber = i;                       
+                        
+                        request.paginationInput = paginationInput;
 
-                    var results = response.searchResult.item;
-                    
-                    foreach(var result in results)
-                    {
-                        var listing = MapResultToListing(result);
-                        listings.Add(listing);
+                        FindItemsByKeywordsResponse response = client.findItemsByKeywords(request);
+                      
+                        if (response?.searchResult?.item == null || response.ack.ToString() != "Success")
+                            return listings;
+
+                        var results = response.searchResult.item;
+
+                        foreach (var result in results)
+                        {
+                            var listing = MapResultToListing(result);
+                            listings.Add(listing);
+                        }
+                        
+                        if (response.searchResult.count < maxEntriesPerPage)
+                            break;
                     }
                     return listings;
-
                 }
             }
         }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="5f495a2b-0834-42c9-a4e5-5e3aeaa8fc19" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="9f53c85e-2919-49b4-af64-d6ca946dd051" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -22,7 +22,7 @@
     <MetadataSource Address="http://developer.ebay.com/webservices/Finding/latest/FindingService.wsdl" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="FindService.wsdl" MetadataType="Wsdl" ID="f115dbad-f457-4041-9b78-5cbb3ba69a7c" SourceId="1" SourceUrl="http://developer.ebay.com/webservices/Finding/latest/FindingService.wsdl" />
+    <MetadataFile FileName="FindService.wsdl" MetadataType="Wsdl" ID="2749eb27-c542-472e-b2fb-110c70e278ab" SourceId="1" SourceUrl="http://developer.ebay.com/webservices/Finding/latest/FindingService.wsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

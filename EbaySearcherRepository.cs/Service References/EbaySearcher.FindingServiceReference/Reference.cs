@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference {
+namespace EbaySearcher.FindingServiceReference {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -21,111 +21,111 @@ namespace EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference {
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(BaseServiceResponse))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(BaseServiceRequest))]
-        EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getSearchKeywordsRecommendationResponse1 getSearchKeywordsRecommendation(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getSearchKeywordsRecommendationRequest1 request);
+        EbaySearcher.FindingServiceReference.getSearchKeywordsRecommendationResponse1 getSearchKeywordsRecommendation(EbaySearcher.FindingServiceReference.getSearchKeywordsRecommendationRequest1 request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://www.ebay.com/marketplace/search/v1/services/getSearchKeywordsRecommendatio" +
             "n", ReplyAction="*")]
-        System.Threading.Tasks.Task<EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getSearchKeywordsRecommendationResponse1> getSearchKeywordsRecommendationAsync(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getSearchKeywordsRecommendationRequest1 request);
+        System.Threading.Tasks.Task<EbaySearcher.FindingServiceReference.getSearchKeywordsRecommendationResponse1> getSearchKeywordsRecommendationAsync(EbaySearcher.FindingServiceReference.getSearchKeywordsRecommendationRequest1 request);
         
         // CODEGEN: Generating message contract since the operation findItemsByKeywords is neither RPC nor document wrapped.
         [System.ServiceModel.OperationContractAttribute(Action="http://www.ebay.com/marketplace/search/v1/services/findItemsByKeywords", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(BaseServiceResponse))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(BaseServiceRequest))]
-        EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByKeywordsResponse1 findItemsByKeywords(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByKeywordsRequest1 request);
+        EbaySearcher.FindingServiceReference.findItemsByKeywordsResponse1 findItemsByKeywords(EbaySearcher.FindingServiceReference.findItemsByKeywordsRequest1 request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://www.ebay.com/marketplace/search/v1/services/findItemsByKeywords", ReplyAction="*")]
-        System.Threading.Tasks.Task<EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByKeywordsResponse1> findItemsByKeywordsAsync(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByKeywordsRequest1 request);
+        System.Threading.Tasks.Task<EbaySearcher.FindingServiceReference.findItemsByKeywordsResponse1> findItemsByKeywordsAsync(EbaySearcher.FindingServiceReference.findItemsByKeywordsRequest1 request);
         
         // CODEGEN: Generating message contract since the operation findItemsByCategory is neither RPC nor document wrapped.
         [System.ServiceModel.OperationContractAttribute(Action="http://www.ebay.com/marketplace/search/v1/services/findItemsByCategory", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(BaseServiceResponse))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(BaseServiceRequest))]
-        EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByCategoryResponse1 findItemsByCategory(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByCategoryRequest1 request);
+        EbaySearcher.FindingServiceReference.findItemsByCategoryResponse1 findItemsByCategory(EbaySearcher.FindingServiceReference.findItemsByCategoryRequest1 request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://www.ebay.com/marketplace/search/v1/services/findItemsByCategory", ReplyAction="*")]
-        System.Threading.Tasks.Task<EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByCategoryResponse1> findItemsByCategoryAsync(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByCategoryRequest1 request);
+        System.Threading.Tasks.Task<EbaySearcher.FindingServiceReference.findItemsByCategoryResponse1> findItemsByCategoryAsync(EbaySearcher.FindingServiceReference.findItemsByCategoryRequest1 request);
         
         // CODEGEN: Generating message contract since the operation findItemsAdvanced is neither RPC nor document wrapped.
         [System.ServiceModel.OperationContractAttribute(Action="http://www.ebay.com/marketplace/search/v1/services/findItemsAdvanced", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(BaseServiceResponse))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(BaseServiceRequest))]
-        EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsAdvancedResponse1 findItemsAdvanced(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsAdvancedRequest1 request);
+        EbaySearcher.FindingServiceReference.findItemsAdvancedResponse1 findItemsAdvanced(EbaySearcher.FindingServiceReference.findItemsAdvancedRequest1 request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://www.ebay.com/marketplace/search/v1/services/findItemsAdvanced", ReplyAction="*")]
-        System.Threading.Tasks.Task<EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsAdvancedResponse1> findItemsAdvancedAsync(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsAdvancedRequest1 request);
+        System.Threading.Tasks.Task<EbaySearcher.FindingServiceReference.findItemsAdvancedResponse1> findItemsAdvancedAsync(EbaySearcher.FindingServiceReference.findItemsAdvancedRequest1 request);
         
         // CODEGEN: Generating message contract since the operation findItemsByProduct is neither RPC nor document wrapped.
         [System.ServiceModel.OperationContractAttribute(Action="http://www.ebay.com/marketplace/search/v1/services/findItemsByProduct", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(BaseServiceResponse))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(BaseServiceRequest))]
-        EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByProductResponse1 findItemsByProduct(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByProductRequest1 request);
+        EbaySearcher.FindingServiceReference.findItemsByProductResponse1 findItemsByProduct(EbaySearcher.FindingServiceReference.findItemsByProductRequest1 request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://www.ebay.com/marketplace/search/v1/services/findItemsByProduct", ReplyAction="*")]
-        System.Threading.Tasks.Task<EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByProductResponse1> findItemsByProductAsync(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByProductRequest1 request);
+        System.Threading.Tasks.Task<EbaySearcher.FindingServiceReference.findItemsByProductResponse1> findItemsByProductAsync(EbaySearcher.FindingServiceReference.findItemsByProductRequest1 request);
         
         // CODEGEN: Generating message contract since the operation findItemsIneBayStores is neither RPC nor document wrapped.
         [System.ServiceModel.OperationContractAttribute(Action="http://www.ebay.com/marketplace/search/v1/services/findItemsIneBayStores", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(BaseServiceResponse))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(BaseServiceRequest))]
-        EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsIneBayStoresResponse1 findItemsIneBayStores(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsIneBayStoresRequest1 request);
+        EbaySearcher.FindingServiceReference.findItemsIneBayStoresResponse1 findItemsIneBayStores(EbaySearcher.FindingServiceReference.findItemsIneBayStoresRequest1 request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://www.ebay.com/marketplace/search/v1/services/findItemsIneBayStores", ReplyAction="*")]
-        System.Threading.Tasks.Task<EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsIneBayStoresResponse1> findItemsIneBayStoresAsync(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsIneBayStoresRequest1 request);
+        System.Threading.Tasks.Task<EbaySearcher.FindingServiceReference.findItemsIneBayStoresResponse1> findItemsIneBayStoresAsync(EbaySearcher.FindingServiceReference.findItemsIneBayStoresRequest1 request);
         
         // CODEGEN: Generating message contract since the operation findItemsByImage is neither RPC nor document wrapped.
         [System.ServiceModel.OperationContractAttribute(Action="http://www.ebay.com/marketplace/search/v1/services/findItemsByImage", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(BaseServiceResponse))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(BaseServiceRequest))]
-        EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByImageResponse1 findItemsByImage(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByImageRequest1 request);
+        EbaySearcher.FindingServiceReference.findItemsByImageResponse1 findItemsByImage(EbaySearcher.FindingServiceReference.findItemsByImageRequest1 request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://www.ebay.com/marketplace/search/v1/services/findItemsByImage", ReplyAction="*")]
-        System.Threading.Tasks.Task<EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByImageResponse1> findItemsByImageAsync(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByImageRequest1 request);
+        System.Threading.Tasks.Task<EbaySearcher.FindingServiceReference.findItemsByImageResponse1> findItemsByImageAsync(EbaySearcher.FindingServiceReference.findItemsByImageRequest1 request);
         
         // CODEGEN: Generating message contract since the operation getHistograms is neither RPC nor document wrapped.
         [System.ServiceModel.OperationContractAttribute(Action="http://www.ebay.com/marketplace/search/v1/services/getHistograms", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(BaseServiceResponse))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(BaseServiceRequest))]
-        EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getHistogramsResponse1 getHistograms(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getHistogramsRequest1 request);
+        EbaySearcher.FindingServiceReference.getHistogramsResponse1 getHistograms(EbaySearcher.FindingServiceReference.getHistogramsRequest1 request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://www.ebay.com/marketplace/search/v1/services/getHistograms", ReplyAction="*")]
-        System.Threading.Tasks.Task<EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getHistogramsResponse1> getHistogramsAsync(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getHistogramsRequest1 request);
+        System.Threading.Tasks.Task<EbaySearcher.FindingServiceReference.getHistogramsResponse1> getHistogramsAsync(EbaySearcher.FindingServiceReference.getHistogramsRequest1 request);
         
         // CODEGEN: Generating message contract since the operation getVersion is neither RPC nor document wrapped.
         [System.ServiceModel.OperationContractAttribute(Action="http://www.ebay.com/marketplace/search/v1/services/getVersion", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(BaseServiceResponse))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(BaseServiceRequest))]
-        EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getVersionResponse1 getVersion(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getVersionRequest1 request);
+        EbaySearcher.FindingServiceReference.getVersionResponse1 getVersion(EbaySearcher.FindingServiceReference.getVersionRequest1 request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://www.ebay.com/marketplace/search/v1/services/getVersion", ReplyAction="*")]
-        System.Threading.Tasks.Task<EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getVersionResponse1> getVersionAsync(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getVersionRequest1 request);
+        System.Threading.Tasks.Task<EbaySearcher.FindingServiceReference.getVersionResponse1> getVersionAsync(EbaySearcher.FindingServiceReference.getVersionRequest1 request);
         
         // CODEGEN: Generating message contract since the operation findItemsForFavoriteSearch is neither RPC nor document wrapped.
         [System.ServiceModel.OperationContractAttribute(Action="http://www.ebay.com/marketplace/search/v1/services/findItemsForFavoriteSearch", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(BaseServiceResponse))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(BaseServiceRequest))]
-        EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsForFavoriteSearchResponse1 findItemsForFavoriteSearch(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsForFavoriteSearchRequest1 request);
+        EbaySearcher.FindingServiceReference.findItemsForFavoriteSearchResponse1 findItemsForFavoriteSearch(EbaySearcher.FindingServiceReference.findItemsForFavoriteSearchRequest1 request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://www.ebay.com/marketplace/search/v1/services/findItemsForFavoriteSearch", ReplyAction="*")]
-        System.Threading.Tasks.Task<EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsForFavoriteSearchResponse1> findItemsForFavoriteSearchAsync(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsForFavoriteSearchRequest1 request);
+        System.Threading.Tasks.Task<EbaySearcher.FindingServiceReference.findItemsForFavoriteSearchResponse1> findItemsForFavoriteSearchAsync(EbaySearcher.FindingServiceReference.findItemsForFavoriteSearchRequest1 request);
         
         // CODEGEN: Generating message contract since the operation findCompletedItems is neither RPC nor document wrapped.
         [System.ServiceModel.OperationContractAttribute(Action="http://www.ebay.com/marketplace/search/v1/services/findItemsAdvanced", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(BaseServiceResponse))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(BaseServiceRequest))]
-        EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findCompletedItemsResponse1 findCompletedItems(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findCompletedItemsRequest1 request);
+        EbaySearcher.FindingServiceReference.findCompletedItemsResponse1 findCompletedItems(EbaySearcher.FindingServiceReference.findCompletedItemsRequest1 request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://www.ebay.com/marketplace/search/v1/services/findItemsAdvanced", ReplyAction="*")]
-        System.Threading.Tasks.Task<EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findCompletedItemsResponse1> findCompletedItemsAsync(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findCompletedItemsRequest1 request);
+        System.Threading.Tasks.Task<EbaySearcher.FindingServiceReference.findCompletedItemsResponse1> findCompletedItemsAsync(EbaySearcher.FindingServiceReference.findCompletedItemsRequest1 request);
     }
     
     /// <remarks/>
@@ -5370,12 +5370,12 @@ namespace EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://www.ebay.com/marketplace/search/v1/services", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.GetSearchKeywordsRecommendationRequest getSearchKeywordsRecommendationRequest;
+        public EbaySearcher.FindingServiceReference.GetSearchKeywordsRecommendationRequest getSearchKeywordsRecommendationRequest;
         
         public getSearchKeywordsRecommendationRequest1() {
         }
         
-        public getSearchKeywordsRecommendationRequest1(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.GetSearchKeywordsRecommendationRequest getSearchKeywordsRecommendationRequest) {
+        public getSearchKeywordsRecommendationRequest1(EbaySearcher.FindingServiceReference.GetSearchKeywordsRecommendationRequest getSearchKeywordsRecommendationRequest) {
             this.getSearchKeywordsRecommendationRequest = getSearchKeywordsRecommendationRequest;
         }
     }
@@ -5388,12 +5388,12 @@ namespace EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://www.ebay.com/marketplace/search/v1/services", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.GetSearchKeywordsRecommendationResponse getSearchKeywordsRecommendationResponse;
+        public EbaySearcher.FindingServiceReference.GetSearchKeywordsRecommendationResponse getSearchKeywordsRecommendationResponse;
         
         public getSearchKeywordsRecommendationResponse1() {
         }
         
-        public getSearchKeywordsRecommendationResponse1(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.GetSearchKeywordsRecommendationResponse getSearchKeywordsRecommendationResponse) {
+        public getSearchKeywordsRecommendationResponse1(EbaySearcher.FindingServiceReference.GetSearchKeywordsRecommendationResponse getSearchKeywordsRecommendationResponse) {
             this.getSearchKeywordsRecommendationResponse = getSearchKeywordsRecommendationResponse;
         }
     }
@@ -5406,12 +5406,12 @@ namespace EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://www.ebay.com/marketplace/search/v1/services", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsByKeywordsRequest findItemsByKeywordsRequest;
+        public EbaySearcher.FindingServiceReference.FindItemsByKeywordsRequest findItemsByKeywordsRequest;
         
         public findItemsByKeywordsRequest1() {
         }
         
-        public findItemsByKeywordsRequest1(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsByKeywordsRequest findItemsByKeywordsRequest) {
+        public findItemsByKeywordsRequest1(EbaySearcher.FindingServiceReference.FindItemsByKeywordsRequest findItemsByKeywordsRequest) {
             this.findItemsByKeywordsRequest = findItemsByKeywordsRequest;
         }
     }
@@ -5424,12 +5424,12 @@ namespace EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://www.ebay.com/marketplace/search/v1/services", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsByKeywordsResponse findItemsByKeywordsResponse;
+        public EbaySearcher.FindingServiceReference.FindItemsByKeywordsResponse findItemsByKeywordsResponse;
         
         public findItemsByKeywordsResponse1() {
         }
         
-        public findItemsByKeywordsResponse1(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsByKeywordsResponse findItemsByKeywordsResponse) {
+        public findItemsByKeywordsResponse1(EbaySearcher.FindingServiceReference.FindItemsByKeywordsResponse findItemsByKeywordsResponse) {
             this.findItemsByKeywordsResponse = findItemsByKeywordsResponse;
         }
     }
@@ -5442,12 +5442,12 @@ namespace EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://www.ebay.com/marketplace/search/v1/services", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsByCategoryRequest findItemsByCategoryRequest;
+        public EbaySearcher.FindingServiceReference.FindItemsByCategoryRequest findItemsByCategoryRequest;
         
         public findItemsByCategoryRequest1() {
         }
         
-        public findItemsByCategoryRequest1(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsByCategoryRequest findItemsByCategoryRequest) {
+        public findItemsByCategoryRequest1(EbaySearcher.FindingServiceReference.FindItemsByCategoryRequest findItemsByCategoryRequest) {
             this.findItemsByCategoryRequest = findItemsByCategoryRequest;
         }
     }
@@ -5460,12 +5460,12 @@ namespace EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://www.ebay.com/marketplace/search/v1/services", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsByCategoryResponse findItemsByCategoryResponse;
+        public EbaySearcher.FindingServiceReference.FindItemsByCategoryResponse findItemsByCategoryResponse;
         
         public findItemsByCategoryResponse1() {
         }
         
-        public findItemsByCategoryResponse1(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsByCategoryResponse findItemsByCategoryResponse) {
+        public findItemsByCategoryResponse1(EbaySearcher.FindingServiceReference.FindItemsByCategoryResponse findItemsByCategoryResponse) {
             this.findItemsByCategoryResponse = findItemsByCategoryResponse;
         }
     }
@@ -5478,12 +5478,12 @@ namespace EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://www.ebay.com/marketplace/search/v1/services", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsAdvancedRequest findItemsAdvancedRequest;
+        public EbaySearcher.FindingServiceReference.FindItemsAdvancedRequest findItemsAdvancedRequest;
         
         public findItemsAdvancedRequest1() {
         }
         
-        public findItemsAdvancedRequest1(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsAdvancedRequest findItemsAdvancedRequest) {
+        public findItemsAdvancedRequest1(EbaySearcher.FindingServiceReference.FindItemsAdvancedRequest findItemsAdvancedRequest) {
             this.findItemsAdvancedRequest = findItemsAdvancedRequest;
         }
     }
@@ -5496,12 +5496,12 @@ namespace EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://www.ebay.com/marketplace/search/v1/services", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsAdvancedResponse findItemsAdvancedResponse;
+        public EbaySearcher.FindingServiceReference.FindItemsAdvancedResponse findItemsAdvancedResponse;
         
         public findItemsAdvancedResponse1() {
         }
         
-        public findItemsAdvancedResponse1(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsAdvancedResponse findItemsAdvancedResponse) {
+        public findItemsAdvancedResponse1(EbaySearcher.FindingServiceReference.FindItemsAdvancedResponse findItemsAdvancedResponse) {
             this.findItemsAdvancedResponse = findItemsAdvancedResponse;
         }
     }
@@ -5514,12 +5514,12 @@ namespace EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://www.ebay.com/marketplace/search/v1/services", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsByProductRequest findItemsByProductRequest;
+        public EbaySearcher.FindingServiceReference.FindItemsByProductRequest findItemsByProductRequest;
         
         public findItemsByProductRequest1() {
         }
         
-        public findItemsByProductRequest1(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsByProductRequest findItemsByProductRequest) {
+        public findItemsByProductRequest1(EbaySearcher.FindingServiceReference.FindItemsByProductRequest findItemsByProductRequest) {
             this.findItemsByProductRequest = findItemsByProductRequest;
         }
     }
@@ -5532,12 +5532,12 @@ namespace EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://www.ebay.com/marketplace/search/v1/services", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsByProductResponse findItemsByProductResponse;
+        public EbaySearcher.FindingServiceReference.FindItemsByProductResponse findItemsByProductResponse;
         
         public findItemsByProductResponse1() {
         }
         
-        public findItemsByProductResponse1(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsByProductResponse findItemsByProductResponse) {
+        public findItemsByProductResponse1(EbaySearcher.FindingServiceReference.FindItemsByProductResponse findItemsByProductResponse) {
             this.findItemsByProductResponse = findItemsByProductResponse;
         }
     }
@@ -5550,12 +5550,12 @@ namespace EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://www.ebay.com/marketplace/search/v1/services", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsIneBayStoresRequest findItemsIneBayStoresRequest;
+        public EbaySearcher.FindingServiceReference.FindItemsIneBayStoresRequest findItemsIneBayStoresRequest;
         
         public findItemsIneBayStoresRequest1() {
         }
         
-        public findItemsIneBayStoresRequest1(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsIneBayStoresRequest findItemsIneBayStoresRequest) {
+        public findItemsIneBayStoresRequest1(EbaySearcher.FindingServiceReference.FindItemsIneBayStoresRequest findItemsIneBayStoresRequest) {
             this.findItemsIneBayStoresRequest = findItemsIneBayStoresRequest;
         }
     }
@@ -5568,12 +5568,12 @@ namespace EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://www.ebay.com/marketplace/search/v1/services", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsIneBayStoresResponse findItemsIneBayStoresResponse;
+        public EbaySearcher.FindingServiceReference.FindItemsIneBayStoresResponse findItemsIneBayStoresResponse;
         
         public findItemsIneBayStoresResponse1() {
         }
         
-        public findItemsIneBayStoresResponse1(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsIneBayStoresResponse findItemsIneBayStoresResponse) {
+        public findItemsIneBayStoresResponse1(EbaySearcher.FindingServiceReference.FindItemsIneBayStoresResponse findItemsIneBayStoresResponse) {
             this.findItemsIneBayStoresResponse = findItemsIneBayStoresResponse;
         }
     }
@@ -5586,12 +5586,12 @@ namespace EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://www.ebay.com/marketplace/search/v1/services", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsByImageRequest findItemsByImageRequest;
+        public EbaySearcher.FindingServiceReference.FindItemsByImageRequest findItemsByImageRequest;
         
         public findItemsByImageRequest1() {
         }
         
-        public findItemsByImageRequest1(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsByImageRequest findItemsByImageRequest) {
+        public findItemsByImageRequest1(EbaySearcher.FindingServiceReference.FindItemsByImageRequest findItemsByImageRequest) {
             this.findItemsByImageRequest = findItemsByImageRequest;
         }
     }
@@ -5604,12 +5604,12 @@ namespace EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://www.ebay.com/marketplace/search/v1/services", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsByImageResponse findItemsByImageResponse;
+        public EbaySearcher.FindingServiceReference.FindItemsByImageResponse findItemsByImageResponse;
         
         public findItemsByImageResponse1() {
         }
         
-        public findItemsByImageResponse1(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsByImageResponse findItemsByImageResponse) {
+        public findItemsByImageResponse1(EbaySearcher.FindingServiceReference.FindItemsByImageResponse findItemsByImageResponse) {
             this.findItemsByImageResponse = findItemsByImageResponse;
         }
     }
@@ -5622,12 +5622,12 @@ namespace EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://www.ebay.com/marketplace/search/v1/services", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.GetHistogramsRequest getHistogramsRequest;
+        public EbaySearcher.FindingServiceReference.GetHistogramsRequest getHistogramsRequest;
         
         public getHistogramsRequest1() {
         }
         
-        public getHistogramsRequest1(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.GetHistogramsRequest getHistogramsRequest) {
+        public getHistogramsRequest1(EbaySearcher.FindingServiceReference.GetHistogramsRequest getHistogramsRequest) {
             this.getHistogramsRequest = getHistogramsRequest;
         }
     }
@@ -5640,12 +5640,12 @@ namespace EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://www.ebay.com/marketplace/search/v1/services", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.GetHistogramsResponse getHistogramsResponse;
+        public EbaySearcher.FindingServiceReference.GetHistogramsResponse getHistogramsResponse;
         
         public getHistogramsResponse1() {
         }
         
-        public getHistogramsResponse1(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.GetHistogramsResponse getHistogramsResponse) {
+        public getHistogramsResponse1(EbaySearcher.FindingServiceReference.GetHistogramsResponse getHistogramsResponse) {
             this.getHistogramsResponse = getHistogramsResponse;
         }
     }
@@ -5657,12 +5657,12 @@ namespace EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference {
     public partial class getVersionRequest1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://www.ebay.com/marketplace/search/v1/services", Order=0)]
-        public EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.GetVersionRequest getVersionRequest;
+        public EbaySearcher.FindingServiceReference.GetVersionRequest getVersionRequest;
         
         public getVersionRequest1() {
         }
         
-        public getVersionRequest1(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.GetVersionRequest getVersionRequest) {
+        public getVersionRequest1(EbaySearcher.FindingServiceReference.GetVersionRequest getVersionRequest) {
             this.getVersionRequest = getVersionRequest;
         }
     }
@@ -5674,12 +5674,12 @@ namespace EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference {
     public partial class getVersionResponse1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://www.ebay.com/marketplace/search/v1/services", Order=0)]
-        public EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.GetVersionResponse getVersionResponse;
+        public EbaySearcher.FindingServiceReference.GetVersionResponse getVersionResponse;
         
         public getVersionResponse1() {
         }
         
-        public getVersionResponse1(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.GetVersionResponse getVersionResponse) {
+        public getVersionResponse1(EbaySearcher.FindingServiceReference.GetVersionResponse getVersionResponse) {
             this.getVersionResponse = getVersionResponse;
         }
     }
@@ -5691,12 +5691,12 @@ namespace EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference {
     public partial class findItemsForFavoriteSearchRequest1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://www.ebay.com/marketplace/search/v1/services", Order=0)]
-        public EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsForFavoriteSearchRequest findItemsForFavoriteSearchRequest;
+        public EbaySearcher.FindingServiceReference.FindItemsForFavoriteSearchRequest findItemsForFavoriteSearchRequest;
         
         public findItemsForFavoriteSearchRequest1() {
         }
         
-        public findItemsForFavoriteSearchRequest1(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsForFavoriteSearchRequest findItemsForFavoriteSearchRequest) {
+        public findItemsForFavoriteSearchRequest1(EbaySearcher.FindingServiceReference.FindItemsForFavoriteSearchRequest findItemsForFavoriteSearchRequest) {
             this.findItemsForFavoriteSearchRequest = findItemsForFavoriteSearchRequest;
         }
     }
@@ -5708,12 +5708,12 @@ namespace EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference {
     public partial class findItemsForFavoriteSearchResponse1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://www.ebay.com/marketplace/search/v1/services", Order=0)]
-        public EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsForFavoriteSearchResponse findItemsForFavoriteSearchResponse;
+        public EbaySearcher.FindingServiceReference.FindItemsForFavoriteSearchResponse findItemsForFavoriteSearchResponse;
         
         public findItemsForFavoriteSearchResponse1() {
         }
         
-        public findItemsForFavoriteSearchResponse1(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsForFavoriteSearchResponse findItemsForFavoriteSearchResponse) {
+        public findItemsForFavoriteSearchResponse1(EbaySearcher.FindingServiceReference.FindItemsForFavoriteSearchResponse findItemsForFavoriteSearchResponse) {
             this.findItemsForFavoriteSearchResponse = findItemsForFavoriteSearchResponse;
         }
     }
@@ -5726,12 +5726,12 @@ namespace EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://www.ebay.com/marketplace/search/v1/services", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindCompletedItemsRequest findCompletedItemsRequest;
+        public EbaySearcher.FindingServiceReference.FindCompletedItemsRequest findCompletedItemsRequest;
         
         public findCompletedItemsRequest1() {
         }
         
-        public findCompletedItemsRequest1(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindCompletedItemsRequest findCompletedItemsRequest) {
+        public findCompletedItemsRequest1(EbaySearcher.FindingServiceReference.FindCompletedItemsRequest findCompletedItemsRequest) {
             this.findCompletedItemsRequest = findCompletedItemsRequest;
         }
     }
@@ -5744,23 +5744,23 @@ namespace EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://www.ebay.com/marketplace/search/v1/services", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindCompletedItemsResponse findCompletedItemsResponse;
+        public EbaySearcher.FindingServiceReference.FindCompletedItemsResponse findCompletedItemsResponse;
         
         public findCompletedItemsResponse1() {
         }
         
-        public findCompletedItemsResponse1(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindCompletedItemsResponse findCompletedItemsResponse) {
+        public findCompletedItemsResponse1(EbaySearcher.FindingServiceReference.FindCompletedItemsResponse findCompletedItemsResponse) {
             this.findCompletedItemsResponse = findCompletedItemsResponse;
         }
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface FindingServicePortTypeChannel : EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType, System.ServiceModel.IClientChannel {
+    public interface FindingServicePortTypeChannel : EbaySearcher.FindingServiceReference.FindingServicePortType, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class FindingServicePortTypeClient : System.ServiceModel.ClientBase<EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType>, EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType {
+    public partial class FindingServicePortTypeClient : System.ServiceModel.ClientBase<EbaySearcher.FindingServiceReference.FindingServicePortType>, EbaySearcher.FindingServiceReference.FindingServicePortType {
         
         public FindingServicePortTypeClient() {
         }
@@ -5782,256 +5782,256 @@ namespace EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getSearchKeywordsRecommendationResponse1 EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType.getSearchKeywordsRecommendation(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getSearchKeywordsRecommendationRequest1 request) {
+        EbaySearcher.FindingServiceReference.getSearchKeywordsRecommendationResponse1 EbaySearcher.FindingServiceReference.FindingServicePortType.getSearchKeywordsRecommendation(EbaySearcher.FindingServiceReference.getSearchKeywordsRecommendationRequest1 request) {
             return base.Channel.getSearchKeywordsRecommendation(request);
         }
         
-        public EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.GetSearchKeywordsRecommendationResponse getSearchKeywordsRecommendation(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.GetSearchKeywordsRecommendationRequest getSearchKeywordsRecommendationRequest) {
-            EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getSearchKeywordsRecommendationRequest1 inValue = new EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getSearchKeywordsRecommendationRequest1();
+        public EbaySearcher.FindingServiceReference.GetSearchKeywordsRecommendationResponse getSearchKeywordsRecommendation(EbaySearcher.FindingServiceReference.GetSearchKeywordsRecommendationRequest getSearchKeywordsRecommendationRequest) {
+            EbaySearcher.FindingServiceReference.getSearchKeywordsRecommendationRequest1 inValue = new EbaySearcher.FindingServiceReference.getSearchKeywordsRecommendationRequest1();
             inValue.getSearchKeywordsRecommendationRequest = getSearchKeywordsRecommendationRequest;
-            EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getSearchKeywordsRecommendationResponse1 retVal = ((EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).getSearchKeywordsRecommendation(inValue);
+            EbaySearcher.FindingServiceReference.getSearchKeywordsRecommendationResponse1 retVal = ((EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).getSearchKeywordsRecommendation(inValue);
             return retVal.getSearchKeywordsRecommendationResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getSearchKeywordsRecommendationResponse1> EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType.getSearchKeywordsRecommendationAsync(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getSearchKeywordsRecommendationRequest1 request) {
+        System.Threading.Tasks.Task<EbaySearcher.FindingServiceReference.getSearchKeywordsRecommendationResponse1> EbaySearcher.FindingServiceReference.FindingServicePortType.getSearchKeywordsRecommendationAsync(EbaySearcher.FindingServiceReference.getSearchKeywordsRecommendationRequest1 request) {
             return base.Channel.getSearchKeywordsRecommendationAsync(request);
         }
         
-        public System.Threading.Tasks.Task<EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getSearchKeywordsRecommendationResponse1> getSearchKeywordsRecommendationAsync(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.GetSearchKeywordsRecommendationRequest getSearchKeywordsRecommendationRequest) {
-            EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getSearchKeywordsRecommendationRequest1 inValue = new EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getSearchKeywordsRecommendationRequest1();
+        public System.Threading.Tasks.Task<EbaySearcher.FindingServiceReference.getSearchKeywordsRecommendationResponse1> getSearchKeywordsRecommendationAsync(EbaySearcher.FindingServiceReference.GetSearchKeywordsRecommendationRequest getSearchKeywordsRecommendationRequest) {
+            EbaySearcher.FindingServiceReference.getSearchKeywordsRecommendationRequest1 inValue = new EbaySearcher.FindingServiceReference.getSearchKeywordsRecommendationRequest1();
             inValue.getSearchKeywordsRecommendationRequest = getSearchKeywordsRecommendationRequest;
-            return ((EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).getSearchKeywordsRecommendationAsync(inValue);
+            return ((EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).getSearchKeywordsRecommendationAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByKeywordsResponse1 EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType.findItemsByKeywords(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByKeywordsRequest1 request) {
+        EbaySearcher.FindingServiceReference.findItemsByKeywordsResponse1 EbaySearcher.FindingServiceReference.FindingServicePortType.findItemsByKeywords(EbaySearcher.FindingServiceReference.findItemsByKeywordsRequest1 request) {
             return base.Channel.findItemsByKeywords(request);
         }
         
-        public EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsByKeywordsResponse findItemsByKeywords(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsByKeywordsRequest findItemsByKeywordsRequest) {
-            EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByKeywordsRequest1 inValue = new EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByKeywordsRequest1();
+        public EbaySearcher.FindingServiceReference.FindItemsByKeywordsResponse findItemsByKeywords(EbaySearcher.FindingServiceReference.FindItemsByKeywordsRequest findItemsByKeywordsRequest) {
+            EbaySearcher.FindingServiceReference.findItemsByKeywordsRequest1 inValue = new EbaySearcher.FindingServiceReference.findItemsByKeywordsRequest1();
             inValue.findItemsByKeywordsRequest = findItemsByKeywordsRequest;
-            EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByKeywordsResponse1 retVal = ((EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).findItemsByKeywords(inValue);
+            EbaySearcher.FindingServiceReference.findItemsByKeywordsResponse1 retVal = ((EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).findItemsByKeywords(inValue);
             return retVal.findItemsByKeywordsResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByKeywordsResponse1> EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType.findItemsByKeywordsAsync(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByKeywordsRequest1 request) {
+        System.Threading.Tasks.Task<EbaySearcher.FindingServiceReference.findItemsByKeywordsResponse1> EbaySearcher.FindingServiceReference.FindingServicePortType.findItemsByKeywordsAsync(EbaySearcher.FindingServiceReference.findItemsByKeywordsRequest1 request) {
             return base.Channel.findItemsByKeywordsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByKeywordsResponse1> findItemsByKeywordsAsync(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsByKeywordsRequest findItemsByKeywordsRequest) {
-            EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByKeywordsRequest1 inValue = new EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByKeywordsRequest1();
+        public System.Threading.Tasks.Task<EbaySearcher.FindingServiceReference.findItemsByKeywordsResponse1> findItemsByKeywordsAsync(EbaySearcher.FindingServiceReference.FindItemsByKeywordsRequest findItemsByKeywordsRequest) {
+            EbaySearcher.FindingServiceReference.findItemsByKeywordsRequest1 inValue = new EbaySearcher.FindingServiceReference.findItemsByKeywordsRequest1();
             inValue.findItemsByKeywordsRequest = findItemsByKeywordsRequest;
-            return ((EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).findItemsByKeywordsAsync(inValue);
+            return ((EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).findItemsByKeywordsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByCategoryResponse1 EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType.findItemsByCategory(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByCategoryRequest1 request) {
+        EbaySearcher.FindingServiceReference.findItemsByCategoryResponse1 EbaySearcher.FindingServiceReference.FindingServicePortType.findItemsByCategory(EbaySearcher.FindingServiceReference.findItemsByCategoryRequest1 request) {
             return base.Channel.findItemsByCategory(request);
         }
         
-        public EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsByCategoryResponse findItemsByCategory(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsByCategoryRequest findItemsByCategoryRequest) {
-            EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByCategoryRequest1 inValue = new EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByCategoryRequest1();
+        public EbaySearcher.FindingServiceReference.FindItemsByCategoryResponse findItemsByCategory(EbaySearcher.FindingServiceReference.FindItemsByCategoryRequest findItemsByCategoryRequest) {
+            EbaySearcher.FindingServiceReference.findItemsByCategoryRequest1 inValue = new EbaySearcher.FindingServiceReference.findItemsByCategoryRequest1();
             inValue.findItemsByCategoryRequest = findItemsByCategoryRequest;
-            EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByCategoryResponse1 retVal = ((EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).findItemsByCategory(inValue);
+            EbaySearcher.FindingServiceReference.findItemsByCategoryResponse1 retVal = ((EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).findItemsByCategory(inValue);
             return retVal.findItemsByCategoryResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByCategoryResponse1> EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType.findItemsByCategoryAsync(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByCategoryRequest1 request) {
+        System.Threading.Tasks.Task<EbaySearcher.FindingServiceReference.findItemsByCategoryResponse1> EbaySearcher.FindingServiceReference.FindingServicePortType.findItemsByCategoryAsync(EbaySearcher.FindingServiceReference.findItemsByCategoryRequest1 request) {
             return base.Channel.findItemsByCategoryAsync(request);
         }
         
-        public System.Threading.Tasks.Task<EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByCategoryResponse1> findItemsByCategoryAsync(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsByCategoryRequest findItemsByCategoryRequest) {
-            EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByCategoryRequest1 inValue = new EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByCategoryRequest1();
+        public System.Threading.Tasks.Task<EbaySearcher.FindingServiceReference.findItemsByCategoryResponse1> findItemsByCategoryAsync(EbaySearcher.FindingServiceReference.FindItemsByCategoryRequest findItemsByCategoryRequest) {
+            EbaySearcher.FindingServiceReference.findItemsByCategoryRequest1 inValue = new EbaySearcher.FindingServiceReference.findItemsByCategoryRequest1();
             inValue.findItemsByCategoryRequest = findItemsByCategoryRequest;
-            return ((EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).findItemsByCategoryAsync(inValue);
+            return ((EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).findItemsByCategoryAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsAdvancedResponse1 EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType.findItemsAdvanced(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsAdvancedRequest1 request) {
+        EbaySearcher.FindingServiceReference.findItemsAdvancedResponse1 EbaySearcher.FindingServiceReference.FindingServicePortType.findItemsAdvanced(EbaySearcher.FindingServiceReference.findItemsAdvancedRequest1 request) {
             return base.Channel.findItemsAdvanced(request);
         }
         
-        public EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsAdvancedResponse findItemsAdvanced(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsAdvancedRequest findItemsAdvancedRequest) {
-            EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsAdvancedRequest1 inValue = new EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsAdvancedRequest1();
+        public EbaySearcher.FindingServiceReference.FindItemsAdvancedResponse findItemsAdvanced(EbaySearcher.FindingServiceReference.FindItemsAdvancedRequest findItemsAdvancedRequest) {
+            EbaySearcher.FindingServiceReference.findItemsAdvancedRequest1 inValue = new EbaySearcher.FindingServiceReference.findItemsAdvancedRequest1();
             inValue.findItemsAdvancedRequest = findItemsAdvancedRequest;
-            EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsAdvancedResponse1 retVal = ((EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).findItemsAdvanced(inValue);
+            EbaySearcher.FindingServiceReference.findItemsAdvancedResponse1 retVal = ((EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).findItemsAdvanced(inValue);
             return retVal.findItemsAdvancedResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsAdvancedResponse1> EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType.findItemsAdvancedAsync(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsAdvancedRequest1 request) {
+        System.Threading.Tasks.Task<EbaySearcher.FindingServiceReference.findItemsAdvancedResponse1> EbaySearcher.FindingServiceReference.FindingServicePortType.findItemsAdvancedAsync(EbaySearcher.FindingServiceReference.findItemsAdvancedRequest1 request) {
             return base.Channel.findItemsAdvancedAsync(request);
         }
         
-        public System.Threading.Tasks.Task<EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsAdvancedResponse1> findItemsAdvancedAsync(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsAdvancedRequest findItemsAdvancedRequest) {
-            EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsAdvancedRequest1 inValue = new EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsAdvancedRequest1();
+        public System.Threading.Tasks.Task<EbaySearcher.FindingServiceReference.findItemsAdvancedResponse1> findItemsAdvancedAsync(EbaySearcher.FindingServiceReference.FindItemsAdvancedRequest findItemsAdvancedRequest) {
+            EbaySearcher.FindingServiceReference.findItemsAdvancedRequest1 inValue = new EbaySearcher.FindingServiceReference.findItemsAdvancedRequest1();
             inValue.findItemsAdvancedRequest = findItemsAdvancedRequest;
-            return ((EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).findItemsAdvancedAsync(inValue);
+            return ((EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).findItemsAdvancedAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByProductResponse1 EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType.findItemsByProduct(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByProductRequest1 request) {
+        EbaySearcher.FindingServiceReference.findItemsByProductResponse1 EbaySearcher.FindingServiceReference.FindingServicePortType.findItemsByProduct(EbaySearcher.FindingServiceReference.findItemsByProductRequest1 request) {
             return base.Channel.findItemsByProduct(request);
         }
         
-        public EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsByProductResponse findItemsByProduct(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsByProductRequest findItemsByProductRequest) {
-            EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByProductRequest1 inValue = new EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByProductRequest1();
+        public EbaySearcher.FindingServiceReference.FindItemsByProductResponse findItemsByProduct(EbaySearcher.FindingServiceReference.FindItemsByProductRequest findItemsByProductRequest) {
+            EbaySearcher.FindingServiceReference.findItemsByProductRequest1 inValue = new EbaySearcher.FindingServiceReference.findItemsByProductRequest1();
             inValue.findItemsByProductRequest = findItemsByProductRequest;
-            EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByProductResponse1 retVal = ((EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).findItemsByProduct(inValue);
+            EbaySearcher.FindingServiceReference.findItemsByProductResponse1 retVal = ((EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).findItemsByProduct(inValue);
             return retVal.findItemsByProductResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByProductResponse1> EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType.findItemsByProductAsync(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByProductRequest1 request) {
+        System.Threading.Tasks.Task<EbaySearcher.FindingServiceReference.findItemsByProductResponse1> EbaySearcher.FindingServiceReference.FindingServicePortType.findItemsByProductAsync(EbaySearcher.FindingServiceReference.findItemsByProductRequest1 request) {
             return base.Channel.findItemsByProductAsync(request);
         }
         
-        public System.Threading.Tasks.Task<EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByProductResponse1> findItemsByProductAsync(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsByProductRequest findItemsByProductRequest) {
-            EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByProductRequest1 inValue = new EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByProductRequest1();
+        public System.Threading.Tasks.Task<EbaySearcher.FindingServiceReference.findItemsByProductResponse1> findItemsByProductAsync(EbaySearcher.FindingServiceReference.FindItemsByProductRequest findItemsByProductRequest) {
+            EbaySearcher.FindingServiceReference.findItemsByProductRequest1 inValue = new EbaySearcher.FindingServiceReference.findItemsByProductRequest1();
             inValue.findItemsByProductRequest = findItemsByProductRequest;
-            return ((EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).findItemsByProductAsync(inValue);
+            return ((EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).findItemsByProductAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsIneBayStoresResponse1 EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType.findItemsIneBayStores(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsIneBayStoresRequest1 request) {
+        EbaySearcher.FindingServiceReference.findItemsIneBayStoresResponse1 EbaySearcher.FindingServiceReference.FindingServicePortType.findItemsIneBayStores(EbaySearcher.FindingServiceReference.findItemsIneBayStoresRequest1 request) {
             return base.Channel.findItemsIneBayStores(request);
         }
         
-        public EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsIneBayStoresResponse findItemsIneBayStores(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsIneBayStoresRequest findItemsIneBayStoresRequest) {
-            EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsIneBayStoresRequest1 inValue = new EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsIneBayStoresRequest1();
+        public EbaySearcher.FindingServiceReference.FindItemsIneBayStoresResponse findItemsIneBayStores(EbaySearcher.FindingServiceReference.FindItemsIneBayStoresRequest findItemsIneBayStoresRequest) {
+            EbaySearcher.FindingServiceReference.findItemsIneBayStoresRequest1 inValue = new EbaySearcher.FindingServiceReference.findItemsIneBayStoresRequest1();
             inValue.findItemsIneBayStoresRequest = findItemsIneBayStoresRequest;
-            EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsIneBayStoresResponse1 retVal = ((EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).findItemsIneBayStores(inValue);
+            EbaySearcher.FindingServiceReference.findItemsIneBayStoresResponse1 retVal = ((EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).findItemsIneBayStores(inValue);
             return retVal.findItemsIneBayStoresResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsIneBayStoresResponse1> EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType.findItemsIneBayStoresAsync(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsIneBayStoresRequest1 request) {
+        System.Threading.Tasks.Task<EbaySearcher.FindingServiceReference.findItemsIneBayStoresResponse1> EbaySearcher.FindingServiceReference.FindingServicePortType.findItemsIneBayStoresAsync(EbaySearcher.FindingServiceReference.findItemsIneBayStoresRequest1 request) {
             return base.Channel.findItemsIneBayStoresAsync(request);
         }
         
-        public System.Threading.Tasks.Task<EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsIneBayStoresResponse1> findItemsIneBayStoresAsync(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsIneBayStoresRequest findItemsIneBayStoresRequest) {
-            EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsIneBayStoresRequest1 inValue = new EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsIneBayStoresRequest1();
+        public System.Threading.Tasks.Task<EbaySearcher.FindingServiceReference.findItemsIneBayStoresResponse1> findItemsIneBayStoresAsync(EbaySearcher.FindingServiceReference.FindItemsIneBayStoresRequest findItemsIneBayStoresRequest) {
+            EbaySearcher.FindingServiceReference.findItemsIneBayStoresRequest1 inValue = new EbaySearcher.FindingServiceReference.findItemsIneBayStoresRequest1();
             inValue.findItemsIneBayStoresRequest = findItemsIneBayStoresRequest;
-            return ((EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).findItemsIneBayStoresAsync(inValue);
+            return ((EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).findItemsIneBayStoresAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByImageResponse1 EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType.findItemsByImage(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByImageRequest1 request) {
+        EbaySearcher.FindingServiceReference.findItemsByImageResponse1 EbaySearcher.FindingServiceReference.FindingServicePortType.findItemsByImage(EbaySearcher.FindingServiceReference.findItemsByImageRequest1 request) {
             return base.Channel.findItemsByImage(request);
         }
         
-        public EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsByImageResponse findItemsByImage(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsByImageRequest findItemsByImageRequest) {
-            EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByImageRequest1 inValue = new EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByImageRequest1();
+        public EbaySearcher.FindingServiceReference.FindItemsByImageResponse findItemsByImage(EbaySearcher.FindingServiceReference.FindItemsByImageRequest findItemsByImageRequest) {
+            EbaySearcher.FindingServiceReference.findItemsByImageRequest1 inValue = new EbaySearcher.FindingServiceReference.findItemsByImageRequest1();
             inValue.findItemsByImageRequest = findItemsByImageRequest;
-            EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByImageResponse1 retVal = ((EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).findItemsByImage(inValue);
+            EbaySearcher.FindingServiceReference.findItemsByImageResponse1 retVal = ((EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).findItemsByImage(inValue);
             return retVal.findItemsByImageResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByImageResponse1> EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType.findItemsByImageAsync(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByImageRequest1 request) {
+        System.Threading.Tasks.Task<EbaySearcher.FindingServiceReference.findItemsByImageResponse1> EbaySearcher.FindingServiceReference.FindingServicePortType.findItemsByImageAsync(EbaySearcher.FindingServiceReference.findItemsByImageRequest1 request) {
             return base.Channel.findItemsByImageAsync(request);
         }
         
-        public System.Threading.Tasks.Task<EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByImageResponse1> findItemsByImageAsync(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsByImageRequest findItemsByImageRequest) {
-            EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByImageRequest1 inValue = new EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsByImageRequest1();
+        public System.Threading.Tasks.Task<EbaySearcher.FindingServiceReference.findItemsByImageResponse1> findItemsByImageAsync(EbaySearcher.FindingServiceReference.FindItemsByImageRequest findItemsByImageRequest) {
+            EbaySearcher.FindingServiceReference.findItemsByImageRequest1 inValue = new EbaySearcher.FindingServiceReference.findItemsByImageRequest1();
             inValue.findItemsByImageRequest = findItemsByImageRequest;
-            return ((EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).findItemsByImageAsync(inValue);
+            return ((EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).findItemsByImageAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getHistogramsResponse1 EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType.getHistograms(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getHistogramsRequest1 request) {
+        EbaySearcher.FindingServiceReference.getHistogramsResponse1 EbaySearcher.FindingServiceReference.FindingServicePortType.getHistograms(EbaySearcher.FindingServiceReference.getHistogramsRequest1 request) {
             return base.Channel.getHistograms(request);
         }
         
-        public EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.GetHistogramsResponse getHistograms(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.GetHistogramsRequest getHistogramsRequest) {
-            EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getHistogramsRequest1 inValue = new EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getHistogramsRequest1();
+        public EbaySearcher.FindingServiceReference.GetHistogramsResponse getHistograms(EbaySearcher.FindingServiceReference.GetHistogramsRequest getHistogramsRequest) {
+            EbaySearcher.FindingServiceReference.getHistogramsRequest1 inValue = new EbaySearcher.FindingServiceReference.getHistogramsRequest1();
             inValue.getHistogramsRequest = getHistogramsRequest;
-            EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getHistogramsResponse1 retVal = ((EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).getHistograms(inValue);
+            EbaySearcher.FindingServiceReference.getHistogramsResponse1 retVal = ((EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).getHistograms(inValue);
             return retVal.getHistogramsResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getHistogramsResponse1> EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType.getHistogramsAsync(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getHistogramsRequest1 request) {
+        System.Threading.Tasks.Task<EbaySearcher.FindingServiceReference.getHistogramsResponse1> EbaySearcher.FindingServiceReference.FindingServicePortType.getHistogramsAsync(EbaySearcher.FindingServiceReference.getHistogramsRequest1 request) {
             return base.Channel.getHistogramsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getHistogramsResponse1> getHistogramsAsync(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.GetHistogramsRequest getHistogramsRequest) {
-            EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getHistogramsRequest1 inValue = new EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getHistogramsRequest1();
+        public System.Threading.Tasks.Task<EbaySearcher.FindingServiceReference.getHistogramsResponse1> getHistogramsAsync(EbaySearcher.FindingServiceReference.GetHistogramsRequest getHistogramsRequest) {
+            EbaySearcher.FindingServiceReference.getHistogramsRequest1 inValue = new EbaySearcher.FindingServiceReference.getHistogramsRequest1();
             inValue.getHistogramsRequest = getHistogramsRequest;
-            return ((EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).getHistogramsAsync(inValue);
+            return ((EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).getHistogramsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getVersionResponse1 EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType.getVersion(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getVersionRequest1 request) {
+        EbaySearcher.FindingServiceReference.getVersionResponse1 EbaySearcher.FindingServiceReference.FindingServicePortType.getVersion(EbaySearcher.FindingServiceReference.getVersionRequest1 request) {
             return base.Channel.getVersion(request);
         }
         
-        public EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.GetVersionResponse getVersion(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.GetVersionRequest getVersionRequest) {
-            EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getVersionRequest1 inValue = new EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getVersionRequest1();
+        public EbaySearcher.FindingServiceReference.GetVersionResponse getVersion(EbaySearcher.FindingServiceReference.GetVersionRequest getVersionRequest) {
+            EbaySearcher.FindingServiceReference.getVersionRequest1 inValue = new EbaySearcher.FindingServiceReference.getVersionRequest1();
             inValue.getVersionRequest = getVersionRequest;
-            EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getVersionResponse1 retVal = ((EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).getVersion(inValue);
+            EbaySearcher.FindingServiceReference.getVersionResponse1 retVal = ((EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).getVersion(inValue);
             return retVal.getVersionResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getVersionResponse1> EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType.getVersionAsync(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getVersionRequest1 request) {
+        System.Threading.Tasks.Task<EbaySearcher.FindingServiceReference.getVersionResponse1> EbaySearcher.FindingServiceReference.FindingServicePortType.getVersionAsync(EbaySearcher.FindingServiceReference.getVersionRequest1 request) {
             return base.Channel.getVersionAsync(request);
         }
         
-        public System.Threading.Tasks.Task<EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getVersionResponse1> getVersionAsync(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.GetVersionRequest getVersionRequest) {
-            EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getVersionRequest1 inValue = new EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.getVersionRequest1();
+        public System.Threading.Tasks.Task<EbaySearcher.FindingServiceReference.getVersionResponse1> getVersionAsync(EbaySearcher.FindingServiceReference.GetVersionRequest getVersionRequest) {
+            EbaySearcher.FindingServiceReference.getVersionRequest1 inValue = new EbaySearcher.FindingServiceReference.getVersionRequest1();
             inValue.getVersionRequest = getVersionRequest;
-            return ((EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).getVersionAsync(inValue);
+            return ((EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).getVersionAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsForFavoriteSearchResponse1 EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType.findItemsForFavoriteSearch(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsForFavoriteSearchRequest1 request) {
+        EbaySearcher.FindingServiceReference.findItemsForFavoriteSearchResponse1 EbaySearcher.FindingServiceReference.FindingServicePortType.findItemsForFavoriteSearch(EbaySearcher.FindingServiceReference.findItemsForFavoriteSearchRequest1 request) {
             return base.Channel.findItemsForFavoriteSearch(request);
         }
         
-        public EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsForFavoriteSearchResponse findItemsForFavoriteSearch(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsForFavoriteSearchRequest findItemsForFavoriteSearchRequest) {
-            EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsForFavoriteSearchRequest1 inValue = new EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsForFavoriteSearchRequest1();
+        public EbaySearcher.FindingServiceReference.FindItemsForFavoriteSearchResponse findItemsForFavoriteSearch(EbaySearcher.FindingServiceReference.FindItemsForFavoriteSearchRequest findItemsForFavoriteSearchRequest) {
+            EbaySearcher.FindingServiceReference.findItemsForFavoriteSearchRequest1 inValue = new EbaySearcher.FindingServiceReference.findItemsForFavoriteSearchRequest1();
             inValue.findItemsForFavoriteSearchRequest = findItemsForFavoriteSearchRequest;
-            EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsForFavoriteSearchResponse1 retVal = ((EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).findItemsForFavoriteSearch(inValue);
+            EbaySearcher.FindingServiceReference.findItemsForFavoriteSearchResponse1 retVal = ((EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).findItemsForFavoriteSearch(inValue);
             return retVal.findItemsForFavoriteSearchResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsForFavoriteSearchResponse1> EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType.findItemsForFavoriteSearchAsync(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsForFavoriteSearchRequest1 request) {
+        System.Threading.Tasks.Task<EbaySearcher.FindingServiceReference.findItemsForFavoriteSearchResponse1> EbaySearcher.FindingServiceReference.FindingServicePortType.findItemsForFavoriteSearchAsync(EbaySearcher.FindingServiceReference.findItemsForFavoriteSearchRequest1 request) {
             return base.Channel.findItemsForFavoriteSearchAsync(request);
         }
         
-        public System.Threading.Tasks.Task<EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsForFavoriteSearchResponse1> findItemsForFavoriteSearchAsync(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindItemsForFavoriteSearchRequest findItemsForFavoriteSearchRequest) {
-            EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsForFavoriteSearchRequest1 inValue = new EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findItemsForFavoriteSearchRequest1();
+        public System.Threading.Tasks.Task<EbaySearcher.FindingServiceReference.findItemsForFavoriteSearchResponse1> findItemsForFavoriteSearchAsync(EbaySearcher.FindingServiceReference.FindItemsForFavoriteSearchRequest findItemsForFavoriteSearchRequest) {
+            EbaySearcher.FindingServiceReference.findItemsForFavoriteSearchRequest1 inValue = new EbaySearcher.FindingServiceReference.findItemsForFavoriteSearchRequest1();
             inValue.findItemsForFavoriteSearchRequest = findItemsForFavoriteSearchRequest;
-            return ((EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).findItemsForFavoriteSearchAsync(inValue);
+            return ((EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).findItemsForFavoriteSearchAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findCompletedItemsResponse1 EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType.findCompletedItems(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findCompletedItemsRequest1 request) {
+        EbaySearcher.FindingServiceReference.findCompletedItemsResponse1 EbaySearcher.FindingServiceReference.FindingServicePortType.findCompletedItems(EbaySearcher.FindingServiceReference.findCompletedItemsRequest1 request) {
             return base.Channel.findCompletedItems(request);
         }
         
-        public EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindCompletedItemsResponse findCompletedItems(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindCompletedItemsRequest findCompletedItemsRequest) {
-            EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findCompletedItemsRequest1 inValue = new EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findCompletedItemsRequest1();
+        public EbaySearcher.FindingServiceReference.FindCompletedItemsResponse findCompletedItems(EbaySearcher.FindingServiceReference.FindCompletedItemsRequest findCompletedItemsRequest) {
+            EbaySearcher.FindingServiceReference.findCompletedItemsRequest1 inValue = new EbaySearcher.FindingServiceReference.findCompletedItemsRequest1();
             inValue.findCompletedItemsRequest = findCompletedItemsRequest;
-            EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findCompletedItemsResponse1 retVal = ((EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).findCompletedItems(inValue);
+            EbaySearcher.FindingServiceReference.findCompletedItemsResponse1 retVal = ((EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).findCompletedItems(inValue);
             return retVal.findCompletedItemsResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findCompletedItemsResponse1> EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType.findCompletedItemsAsync(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findCompletedItemsRequest1 request) {
+        System.Threading.Tasks.Task<EbaySearcher.FindingServiceReference.findCompletedItemsResponse1> EbaySearcher.FindingServiceReference.FindingServicePortType.findCompletedItemsAsync(EbaySearcher.FindingServiceReference.findCompletedItemsRequest1 request) {
             return base.Channel.findCompletedItemsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findCompletedItemsResponse1> findCompletedItemsAsync(EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindCompletedItemsRequest findCompletedItemsRequest) {
-            EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findCompletedItemsRequest1 inValue = new EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.findCompletedItemsRequest1();
+        public System.Threading.Tasks.Task<EbaySearcher.FindingServiceReference.findCompletedItemsResponse1> findCompletedItemsAsync(EbaySearcher.FindingServiceReference.FindCompletedItemsRequest findCompletedItemsRequest) {
+            EbaySearcher.FindingServiceReference.findCompletedItemsRequest1 inValue = new EbaySearcher.FindingServiceReference.findCompletedItemsRequest1();
             inValue.findCompletedItemsRequest = findCompletedItemsRequest;
-            return ((EbaySearcherRepository.cs.EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).findCompletedItemsAsync(inValue);
+            return ((EbaySearcher.FindingServiceReference.FindingServicePortType)(this)).findCompletedItemsAsync(inValue);
         }
     }
 }

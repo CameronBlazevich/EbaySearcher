@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{34F9E0F0-8794-46C9-BA6D-BB89A16D8AB1}</ProjectGuid>
+    <ProjectGuid>{88781D76-D4D0-4DE5-9DD6-2B8FB94269EF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EbaySearcherBll</RootNamespace>
-    <AssemblyName>EbaySearcherBll</AssemblyName>
+    <RootNamespace>EbaySearcherModels.cs</RootNamespace>
+    <AssemblyName>EbaySearcherModels.cs</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,19 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EbaySearcherBll.cs" />
-    <Compile Include="IEbaySearcherBll.cs" />
+    <Compile Include="Listing.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\EbaySearcherModels.cs\EbaySearcher.Models.csproj">
-      <Project>{88781d76-d4d0-4de5-9dd6-2b8fb94269ef}</Project>
-      <Name>EbaySearcher.Models</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\EbaySearcherRepository.cs\EbaySearcher.Repository.csproj">
-      <Project>{2065453b-ecd7-4634-9f14-5737bce59763}</Project>
-      <Name>EbaySearcher.Repository</Name>
-    </ProjectReference>
+    <Compile Include="SearchPageViewModel.cs" />
+    <Compile Include="SearchResult.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
