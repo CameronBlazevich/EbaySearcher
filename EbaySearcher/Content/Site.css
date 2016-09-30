@@ -1,0 +1,60 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url('../img/business-sales-graphs-and-charts-web-header.jpg') no-repeat center center;
+    /*background-image: url('../img/finances-and-business-graphs-and-charts-web-header.jpg');*/
+    background-size: cover;
+}
+
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px #000000;
+    font-size: 5em;
+}
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px #000000;
+}
+
+.row {
+    margin-top:5px
+}
+
+#resultsTableDiv {
+    background-color:white;
+
+}
