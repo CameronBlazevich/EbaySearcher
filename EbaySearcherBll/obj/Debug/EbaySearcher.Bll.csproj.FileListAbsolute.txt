@@ -1,0 +1,9 @@
+c:\users\cblaz\onedrive\documents\visual studio 2015\Projects\EbaySearcher\EbaySearcherBll\bin\Debug\EbaySearcherBll.dll
+c:\users\cblaz\onedrive\documents\visual studio 2015\Projects\EbaySearcher\EbaySearcherBll\bin\Debug\EbaySearcherBll.pdb
+c:\users\cblaz\onedrive\documents\visual studio 2015\Projects\EbaySearcher\EbaySearcherBll\bin\Debug\EbaySearcherModels.cs.dll
+c:\users\cblaz\onedrive\documents\visual studio 2015\Projects\EbaySearcher\EbaySearcherBll\bin\Debug\EbaySearcherRepository.cs.dll
+c:\users\cblaz\onedrive\documents\visual studio 2015\Projects\EbaySearcher\EbaySearcherBll\bin\Debug\EbaySearcherModels.cs.pdb
+c:\users\cblaz\onedrive\documents\visual studio 2015\Projects\EbaySearcher\EbaySearcherBll\bin\Debug\EbaySearcherRepository.cs.pdb
+c:\users\cblaz\onedrive\documents\visual studio 2015\Projects\EbaySearcher\EbaySearcherBll\obj\Debug\EbaySearcher.Bll.csprojResolveAssemblyReference.cache
+c:\users\cblaz\onedrive\documents\visual studio 2015\Projects\EbaySearcher\EbaySearcherBll\obj\Debug\EbaySearcherBll.dll
+c:\users\cblaz\onedrive\documents\visual studio 2015\Projects\EbaySearcher\EbaySearcherBll\obj\Debug\EbaySearcherBll.pdb
