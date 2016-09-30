@@ -20,9 +20,7 @@ namespace EbaySearcher.Repository
 
                 using (OperationContextScope scope = new OperationContextScope(client.InnerChannel))
 
-                {
-                    
-                   
+                {                                     
                     string appName = ConfigurationManager.AppSettings["EbayAppName"];
 
                     OperationContext.Current.OutgoingMessageHeaders.Add(header);
