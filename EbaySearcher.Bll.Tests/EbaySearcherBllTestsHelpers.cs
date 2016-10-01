@@ -12,7 +12,7 @@ namespace EbaySearcher.Bll.Tests
         public static ICollection<Listing> SetUpSuccessfulBllTest()
         {
             var listings = new List<Listing>();
-            for (var i = 0; i < 10; i++)
+            for (var i = 0; i < 11; i++)
             {
                 var listing = new Listing();
 

@@ -23,7 +23,7 @@ namespace EbaySearcher.Bll
                                     CountByCategory = g.Count(),
                                     AveragePrice = g.Average(p => p.CurrentPrice),
                                     CategoryName = g.Key.CategoryName
-                                }).ToList();
+                                }).OrderBy(x => x.CategoryName).ToList();
 
             return searchResults;
         }

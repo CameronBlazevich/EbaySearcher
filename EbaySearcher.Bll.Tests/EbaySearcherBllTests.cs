@@ -12,7 +12,6 @@ namespace EbaySearcher.Bll.Tests
     public class EbaySearcherBllTests
     {
 
-
         [TestMethod]
         public void SearchEbayListingsByKeyword_Successful()
         {
@@ -33,13 +32,38 @@ namespace EbaySearcher.Bll.Tests
                                    CountByCategory = g.Count(),
                                    AveragePrice = g.Average(p => p.CurrentPrice),
                                    CategoryName = g.Key.CategoryName
-                               }).ToList();
+                               }).OrderBy(x => x.CategoryName).ToList();
+
+            //Act
+            var actual = ebaySearcherBll.SearchEbayListingsByKeyword(searchTerm, maxResults).ToList();
+
+            //Assert
+            Assert.AreEqual(expected.Count, actual.Count);
+            for (var i = 0; i < expected.Count; i++)
+            {
+                AssertHelper.HasEqualPropertyValues(expected[i], actual[i]);
+            }
+        }
+
+        [TestMethod]
+        public void SearchEbayListingsByKeyword_Successful_NoResults()
+        {
+            //This is somewhat of a silly unit test, but illustrates utilizing static class
+
+            //Arrange
+            var searchTerm = "Harry Potter";
+            var maxResults = 100;
+            var listings = new List<Listing>();
+            var mockSearchEngine = new Mock<ISearchEngine>();
+            mockSearchEngine.Setup(x => x.SearchByKeyword(searchTerm, maxResults)).Returns(listings);
+
+            var ebaySearcherBll = new EbaySearcherBll(mockSearchEngine.Object);
 
             //Act
             var actual = ebaySearcherBll.SearchEbayListingsByKeyword(searchTerm, maxResults);
 
             //Assert
-            AssertHelper.HasEqualPropertyValues(expected, actual);
+            Assert.AreEqual(0, actual.Count);
         }
     }
 }
