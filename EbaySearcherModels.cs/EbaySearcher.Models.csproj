@@ -7,8 +7,8 @@
     <ProjectGuid>{88781D76-D4D0-4DE5-9DD6-2B8FB94269EF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EbaySearcherModels.cs</RootNamespace>
-    <AssemblyName>EbaySearcherModels.cs</AssemblyName>
+    <RootNamespace>EbaySearcher.Models</RootNamespace>
+    <AssemblyName>EbaySearcher.Models</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
