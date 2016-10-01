@@ -40,10 +40,18 @@
 
 <script type="text/javascript">
     var spinner;
+    var keyPressAllowed = true;
     var baseUrl = "@Url.Content("~")";
 
     $("#searchTerm").keyup(function (event) {
-        if (event.keyCode == 13) {
+        if (event.keyCode == 13 && keyPressAllowed) {
+            keyPressAllowed = false;
+            $("#searchButton").click();
+        }
+    });
+    $("#maxSearchResults").keyup(function (event) {
+        if (event.keyCode == 13 && keyPressAllowed) {
+            keyPressAllowed = false;
             $("#searchButton").click();
         }
     });
@@ -77,6 +85,7 @@
         }
         spinner.stop();
         $('#searchButton').removeAttr('disabled');
+        keyPressAllowed = true;
     }
 
     function buildAndShowResultsTable(data) {
