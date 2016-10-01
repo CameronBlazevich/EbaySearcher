@@ -6,6 +6,6 @@ namespace EbaySearcher.Repository
 {
     public interface ISearchEngine
     {
-        ICollection<Listing> SearchByKeyword(string keyword, int maxResults);
+        ICollection<Listing> SearchByKeyword(string keyword, int maxSearchResults);
     }
 }

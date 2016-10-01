@@ -5,6 +5,6 @@ namespace EbaySearcher.Bll
 {
     public interface IEbaySearcherBll
     {
-        ICollection<SearchResult> SearchEbayListingsByKeyword(string keyword, int maxResults);
+        ICollection<SearchResult> SearchEbayListingsByKeyword(string keyword, int maxSearchResults);
     }
 }

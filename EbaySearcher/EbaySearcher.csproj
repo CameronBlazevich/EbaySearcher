@@ -135,9 +135,9 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="img\business-sales-graphs-and-charts-web-header.jpg" />
-    <Content Include="img\finances-and-business-graphs-and-charts-web-header.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Properties\PublishProfiles\LocalPublishTest.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\ebaySearcher.dataService.js" />
     <Content Include="Scripts\ebaySearcher.displayHelpers.js" />

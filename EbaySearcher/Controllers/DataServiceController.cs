@@ -12,9 +12,9 @@ namespace EbaySearcher.Controllers
         {
             _EbaySearcherBll = ebaySearcherBll ?? new EbaySearcherBll();
         }
-        public JsonResult SearchEbayListingsByKeyword(string keyword, int maxResults)
+        public JsonResult SearchEbayListingsByKeyword(string keyword, int maxSearchResults)
         {            
-            var searchResults = _EbaySearcherBll.SearchEbayListingsByKeyword(keyword, maxResults);
+            var searchResults = _EbaySearcherBll.SearchEbayListingsByKeyword(keyword, maxSearchResults);
             var serializedSearchResults = new JavaScriptSerializer().Serialize(searchResults);
             return Json(serializedSearchResults, JsonRequestBehavior.AllowGet);
         }

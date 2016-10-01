@@ -14,9 +14,9 @@ namespace EbaySearcher.Bll
         {
             _SearchEngine = searchEngine ?? new SearchEngine();
         }
-        public ICollection<SearchResult> SearchEbayListingsByKeyword(string keyword, int maxResults)
+        public ICollection<SearchResult> SearchEbayListingsByKeyword(string keyword, int maxSearchResults)
         {
-            var listings = _SearchEngine.SearchByKeyword(keyword, maxResults);
+            var listings = _SearchEngine.SearchByKeyword(keyword, maxSearchResults);
             var searchResults = listings.GroupBy(t => new { CategoryName = t.CategoryName })
                                 .Select(g => new SearchResult
                                 {

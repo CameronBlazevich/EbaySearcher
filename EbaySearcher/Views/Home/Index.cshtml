@@ -15,7 +15,7 @@
                 <label>Max Search Results:</label>
             </div>
             <div>
-                @Html.DropDownList("maxRecords", Enumerable.Range(1, 10).Select(i => new SelectListItem { Text = (i * 100).ToString(), Value = (i * 100).ToString() }))
+                @Html.DropDownList("maxSearchResults", Enumerable.Range(1, 10).Select(i => new SelectListItem { Text = (i * 100).ToString(), Value = (i * 100).ToString() }))
             </div>
         </div>
         <button type="button" id="searchButton" class="btn btn-primary">Search</button>
@@ -40,6 +40,8 @@
 
 <script type="text/javascript">
     var spinner;
+    var baseUrl = "@Url.Content("~")";
+
     $("#searchTerm").keyup(function (event) {
         if (event.keyCode == 13) {
             $("#searchButton").click();
@@ -47,14 +49,18 @@
     });
 
     $('#searchButton').click(function () {
+
+        $(this).attr("disabled", true)
         $('#errorMessage').html('');
         var searchTerm = $('#searchTerm').val().trim();
-        var maxRecords = $('#maxRecords').val();
+        var maxSearchResults = $('#maxSearchResults').val();
         $('#searchTerm').val(searchTerm);
+
         if (searchTerm.length >= 3) {
             $('#resultsTable > tbody').html('');
             spinner = new Spinner().spin(document.getElementById('resultsTableDiv'));
-            dataService.getEbayListingsByKeyword($('#searchTerm').val(), maxRecords, populateSearchResults)
+
+            dataService.getEbayListingsByKeyword(baseUrl,$('#searchTerm').val(), maxSearchResults, populateSearchResults)
         }
         else {
             $('#errorMessage').html('Keywords must be longer than 3 characters.');
@@ -63,23 +69,34 @@
 
     function populateSearchResults(data) {
         data = jQuery.parseJSON(data);
-        var trHTML = '';
         if (data.length > 0) {
-            $.each(data, function (key, value) {
-                trHTML +=
-                    '<tr><td>' + value.CategoryName +
-                    '</td><td class="text-center">' + value.CountByCategory +
-                    '</td><td class="text-right">' + displayHelper.roundForMoney(value.AveragePrice) +
-                    '</td></tr>';
-            });
-            $('#resultsTable > tbody').append(trHTML);
-
-            $('#resultsTable').removeClass('hidden');
+            buildAndShowResultsTable(data);
         }
         else {
             $('#errorMessage').html('No results found. Please change your search terms.');
         }
         spinner.stop();
+        $('#searchButton').removeAttr('disabled');
     }
+
+    function buildAndShowResultsTable(data) {
+        var trHTML = '';
+        $.each(data, function (key, value) {
+            trHTML += addRowToResultTable(value);
+        });
+
+        $('#resultsTable > tbody').append(trHTML);
+        $('#resultsTable').removeClass('hidden');
+    }
+
+    function addRowToResultTable(value) {
+        return  '<tr><td>' + value.CategoryName +
+                    '</td><td class="text-center">' + value.CountByCategory +
+                    '</td><td class="text-right">' + displayHelper.roundForMoney(value.AveragePrice) +
+                    '</td></tr>';
+    }
+
+    
+
 </script>
 

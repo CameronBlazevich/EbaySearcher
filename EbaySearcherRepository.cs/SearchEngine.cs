@@ -10,7 +10,7 @@ namespace EbaySearcher.Repository
 {
     public class SearchEngine : ISearchEngine
     {
-        public ICollection<Listing> SearchByKeyword(string keyword, int maxResults)
+        public ICollection<Listing> SearchByKeyword(string keyword, int maxSearchResults)
         {
             using (FindingServicePortTypeClient client = new FindingServicePortTypeClient())
 
@@ -41,7 +41,7 @@ namespace EbaySearcher.Repository
                     PaginationInput paginationInput = new PaginationInput();
                     var listings = new List<Listing>();
                     var maxEntriesPerPage = 100;
-                    var maxIterations = maxResults / maxEntriesPerPage;
+                    var maxIterations = maxSearchResults / maxEntriesPerPage;
                     paginationInput.entriesPerPage = maxEntriesPerPage;
 
                     for (var i = 0; i < maxIterations; i++)
